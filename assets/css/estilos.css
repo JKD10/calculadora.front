@@ -1,4 +1,7 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Fraunces', serif;
     color: aliceblue;
 }
@@ -6,10 +9,12 @@
 body {
     margin: 0;
     background-color: blueviolet;
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/fondo2.jpeg);
+    border: 10px solid gray;
 }
 
 h1 {
+    color: rgb(18, 17, 84);
     text-align: center;
 }
 .container {
